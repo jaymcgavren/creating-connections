@@ -159,7 +159,7 @@ nav a {
     background: #d8cfc4;
     padding: 20px;
     margin: 25px 0;
-    border-left: 4px solid #7a8f7a;
+    text-align: center;
 }
 
 .cards {
