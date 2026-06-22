@@ -78,7 +78,7 @@ nav a {
 .hero p {
     color: white;
     font-size: clamp(1.1rem, 1.6vw, 2rem);
-    max-width: min(50ch, 90%);
+    max-width: min(62ch, 90%);
 }
 
 .btn {
