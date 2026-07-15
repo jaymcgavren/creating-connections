@@ -231,10 +231,14 @@
             </p>
         </div>
 
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Email Address" required>
-            <textarea placeholder="How can I help?" rows="5"></textarea>
+        <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="contact">
+            <p class="hidden" hidden>
+                <label>Don't fill this out if you're human: <input name="bot-field"></label>
+            </p>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <textarea name="message" placeholder="How can I help?" rows="5"></textarea>
             <button type="submit">Send Message</button>
         </form>
         </div>
